@@ -3,14 +3,14 @@ ${host144}        bsa144    # 144hostname
 ${host122}        bsa122    # 122hostname
 ${host124}        bsa124    # 124hostname
 ${host126}        bsa126    # 10.67.1.126hostname
-${host144IP}      10.67.1.144    # 集群主机144IP
-${host122IP}      10.67.1.122    # 集群主机122IP
-${host124IP}      10.67.1.124    # 集群主机124IP
-${host126IP}      10.67.1.126    # 集群主机126IP
-${sshusername}    root    # ssh登录用户名
-${sshpassword}    nsf0cus.    # ssh登录密码
-${USERNAME}       admin
-${PASSWORD}       Nsf0cus!@#
+${host144IP}          # 集群主机144IP
+${host122IP}          # 集群主机122IP
+${host124IP}          # 集群主机124IP
+${host126IP}          # 集群主机126IP
+${sshusername}       # ssh登录用户名
+${sshpassword}       # ssh登录密码
+${USERNAME}       
+${PASSWORD}      
 ${ipchoice}       1    # Enter your choice for public ip
 ${PORT}           9090
 @{cus_rule}       1    0    10.1.1.3    10    10    9    8
@@ -21,8 +21,8 @@ ${PORT}           9090
 ...               9    8    7    10    10
 ${NUM}            10
 ${MAX_PT}         2
-${InstallPackage}    BSA_installer_2.0.0.0.4391_zh_CN.tar.gz    # 安装包文件名
-${licensepath}    E:\\tool\\证书\\bsa-2.0.0.0144.lic
+${InstallPackage}        # 安装包文件名
+${licensepath}    
 ${bsaworker}      bsaworker
 ${hadoopnamenodepath}    /home/bsaworker/hes/hadoopDirs/name    # hadoop namenode path
 ${hadoopdatanodepath}    /home/bsaworker/hes/hadoopDirs/data    # hadoop datanode path
